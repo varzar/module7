@@ -21,9 +21,9 @@ public class AddTriangle implements Command{
 
     @Override
     public void process() {
-        final String enterFirstSide = "Enter the length of the first side of the right triangle: ";
-        final String enterSecondSide = "Enter the length of the second side of the right triangle: ";
-        final String enterThirdSide = "Enter the length of the third side of the right triangle: ";
+        final String enterFirstSide = "Enter the length of the first side of the triangle: ";
+        final String enterSecondSide = "Enter the length of the second side of the triangle: ";
+        final String enterThirdSide = "Enter the length of the third side of the triangle: ";
         final String successMessage = " created";
         double firstSide = AddDoubleValue.addValue(view, enterFirstSide);
         double secondSide = AddDoubleValue.addValue(view, enterSecondSide);
